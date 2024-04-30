@@ -1,0 +1,305 @@
+.navigation1 {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    color: white;
+    background-image: url(../imagesAli/cs2.jpeg);
+    background-size: cover;
+    display: flex;
+    padding: 10px;
+    height: 850px;
+}
+
+.header .navigation1 .header-img {
+    width: 10px;
+    height: 10px;
+    margin: 40px;
+
+}
+
+.header-paragraph {
+    text-align: left;
+    display: block;
+}
+
+.navigation1 .links {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 20px;
+    font-size: 15px;
+    color: blue;
+}
+
+.navigation1 .links li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 13px 0px;
+}
+
+.navigation1 .links li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+/*<=---------------------------------------------body--------------------------------------------------=>*/
+.content-2 {
+    height: 700px;
+    width: 100%;
+    /* background-color: white; */
+    background-repeat: no-repeat;
+}
+
+.welcome-paragragh {
+    color: #da1616;
+    margin-left: 20px;
+    padding: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 70px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.tittle-paragraph {
+    text-align: center;
+}
+
+.home-photo {
+    width: 1200px;
+    height: 600px;
+    margin: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+
+.home-photo .awaykit {
+    width: 1200px;
+    height: 600px;
+    margin: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    display: none;
+
+}
+
+.arsenal2 {
+    width: 40%;
+    height: 600px;
+    margin: 40px 60px;
+    background-image: url(https://socceruniformkits.com/wp-content/uploads/product_images/arsenal-away-authentic-shirt-2023-24-with-martinelli-11-printing_ss5_p-13393228+pv-2+u-s2d9ukcu2zqwddvwpeqq+v-kcu3illbcmyddzndwe5i.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.content-2 .photo-details {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ars-details {
+    width: 50%;
+    height: 600px;
+    /* border: 5px solid purple; */
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px 10px;
+
+}
+
+.content-2 .description {
+    padding: 5px 0px;
+    margin: 5px 0px;
+    color: #da1616;
+    display: block;
+    text-align: center;
+    width: 50%;
+}
+
+.ars-details h2 .ars-table {
+    color: white;
+    margin: 70px 70px 0px 70px;
+    padding: 10px 5px;
+    text-align: left;
+    /* border: 5px solid purple; */
+    border-spacing: 5px;
+    padding: 10px 5px;
+    width: 400px;
+    height: 400px;
+}
+
+.ars-details h2 .ars-table {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #da1616;
+}
+
+.ars-details h2 .ars-table2 {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.876);
+}
+
+.shirt-num {
+    border: 3px solid #da1616;
+    width: 380px;
+    height: 30px;
+    margin: 0px 80px;
+    padding: 10px 0px;
+}
+
+.shirt-name {
+    border: 3px solid #da1616;
+    width: 380px;
+    height: 30px;
+    margin: 10px 80px;
+    padding: 10px 0px;
+}
+
+.options {
+    width: 380px;
+    height: 30px;
+    margin: 10px 80px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-now {
+    width: 180px;
+    height: 40px;
+    border: 2px solid #da1616;
+    text-align: center;
+    /* margin-left: 0px; */
+    padding-top: 20px;
+    background-color: #da1616;
+    color: white;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+.add-to-cart {
+    width: 180px;
+    height: 40px;
+    border: 2px solid #da1616;
+    text-align: center;
+    /* margin-left: 200px; */
+    padding-top: 20px;
+    background-color: #da1616;
+    color: white;
+    border-radius: 20%;
+}
+
+.add-to-cart2 {
+    font-size: 15px;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    /* border: 2px solid #da1616;
+    text-align: center;
+    /* margin-left: 200px; */
+    /* padding-top: 20px;
+    background-color: #da1616; */
+    /* color: white; */
+
+}
+
+.away {
+    margin-left: 200px;
+    width: 380px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.away button {
+    width: 350px;
+    height: 80px;
+    background-color: #da1616;
+    border: none;
+    border-radius: 20%;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 20PX;
+}
+
+/* 
+.div {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+} */
+
+/*<=---------------------------------------------footer--------------------------------------------------=>*/
+
+
+.footer-content {
+    width: 100%;
+    background-color: #da1616;
+    padding: 70px 30px 20px;
+
+}
+
+.social-icons {
+    justify-content: center;
+    display: flex;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+}
+
+.input-search {
+    font-size: 16px;
+    font-family: serif;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+}

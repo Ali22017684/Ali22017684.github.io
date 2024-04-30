@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+
+}
+#zezo{
+    color: rgb(0, 0, 0);
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: 15px;
+    border-radius: 15px;
+}
+.btn-primary{
+    color: aliceblue;
+    border: 1px solid #fff;
+}
+.btn-secondry{
+    color: #fff;
+    background: #383848;;
+    margin-top: 2rem;
+    
+}
+.btn-primary:hover,.btn-secondry:hover{
+    background-color: gold;
+}
+header{
+    height: 100vh;
+    background:url("../images/home_bg.jpeg") center center/cover no-repeat ;
+    position: relative;
+}
+#food{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#food img{
+ width:80px ;
+ margin-left: 100px;
+}
+#food ul{
+    display: flex;
+    margin-right: 100px;
+}
+#food ul li a{
+    display: flex;
+    padding: 15px 20px;
+    color: aliceblue;
+    font-weight: 600;
+}
+#food ul li a:hover{
+border-bottom: 2px solid orange;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 75%;
+    margin-top: 40%;
+    margin-left: 30%;
+    position: absolute;
+}
+.content h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+.content p{
+    margin: 20px 0 40px;
+    color: white
+}
+*header{
+    z-index: 10;
+}
+#about{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4 ;
+}
+#about.title,#offer.title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#about h2,#offer h2,#menu h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#about h2{
+    color: blueviolet;
+}
+#about.title p{
+font-size: 14px;
+color: #e2cbcb;
+font-weight: 600;
+}
+.about—content{
+    display: flex;
+    justify-content: space-between;
+}
+.about—content{
+    color: #1a1818;
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+#offer{
+height: 80%;
+display: flex;
+justify-content: center;
+background: url("../images/offer-background.jpg") center center/cover fixed;
+}
+#offer h2{
+    color: gold;
+}
+#bee{
+    display:block;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    color: #fff;
+    margin-left: 20px;
+}
+#bee img{
+    width: 200px;
+}
+#bee h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+#bee p{
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+#bee span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    color: goldenrod;
+}
+#dada{
+    color: chocolate;
+}
+#menu{
+    background: #f4f4f4;
+    padding: 5rem 0 ;
+
+}
+#title{
+    text-align: center;
+    margin-bottom: 4rem;
+    color:rgb(210, 167, 13);
+}
+#roro{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu-item img{
+    width: 80px;
+    border-radius: 50%;
+}
+.menu-item{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 40px;
+}
+#gallery{
+    background: url("../images/offer-background.jpg");
+}
+.img-gallery img{
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.container h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 45%;
+    color: darkorange;
+}
+#video{
+    background: url("../images/offer-background.jpg");
+    display: flex;
+
+}
+
+.container .video-vid video {
+    width: 50%;
+    margin-left: 280px;
+}
+
+
+#footer{
+    background:#383848 ;
+    text-align: center;
+    color: #f4f4f4;
+    padding: 15px 0;
+    font-size: 14px;
+}
+#iframe{
+    height: 600px;
+    width: 600px;
+}
+.footer-content {
+    width: 100%;
+    background-color: black;
+    padding: 70px 30px 20px;
+
+}
+
+.social-icons {
+    justify-content: center;
+    display: flex;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.3em;
+}
+.secondpage {
+    margin-left: 250px;
+    width: 380px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.secondpage button {
+    width: 350px;
+    height: 80px;
+    background-color: orange;
+    border: none;
+    border-radius: 40%;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 20PX;
+    font-size: 20px;
+}
