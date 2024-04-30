@@ -38,7 +38,7 @@ a{
 }
 header{
     height: 100vh;
-    background:url("../images/home_bg.jpeg") center center/cover no-repeat ;
+    background:url("../imagesAli/home_bg.jpeg") center center/cover no-repeat ;
     position: relative;
 }
 #food{
