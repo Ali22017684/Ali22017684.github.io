@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>online store</title>
+  <!-- main css file-->
+  <link rel="stylesheet" href="../css/abdullah 2.css">
+  <!-- render all elemnts esasily-->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <!-- awesome font-->
+  <link rel="stylesheet" href="../css/all.min.css">
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,800;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="../html/abdullah 1.html"><img src="../images/logo.png" width="40px" /></a>
+        </div>
+        <div class="search">
+          <span class="material-symbols-outlined">
+            search
+          </span>
+          <input type="search" placeholder="Search" class="input-search">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="../html/abdullah 1.html">Home</a></li>
+            <li><a href="../html/abdullah 1.html">Products</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="support abdullah.htm">Contact</a></li>
+            <li><button onclick="toggleDarkMode()"> Dark Mode</button></li>
+            <script>
+              function toggleDarkMode() {
+                const body = document.body;
+                body.classList.toggle('dark-mode');
+              }
+            </script>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <ul id="list">
+      <li class="item"><a href="https://www.apple.com/iphone/">Iphone</a></li>
+      <li class="item"><a href="https://www.apple.com/ipad/">Ipad</a></li>
+      <li class="item"><a href="https://www.apple.com/mac/">Mac</a></li>
+      <li class="item"><a href="https://www.apple.com/airpods/">AIR PODS</a></li>
+      <li class="item"><a href="https://www.apple.com/watch/">Watch</a></li>
+    </ul>
+
+    <div class="table-container">
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>iPhone 13 Pro</td>
+            <td class="description-cell">The latest flagship iPhone featuring ProMotion display, A15 Bionic chip, and
+              improved camera system.</td>
+            <td class="price-cell">$999</td>
+            <td class="image-cell"><img src="../images/iphone 13.jpeg"></td>
+          </tr>
+          <tr>
+            <td>iPhone SE</td>
+            <td class="description-cell">Compact iPhone with A14 Bionic chip, Touch ID, and single-camera system.</td>
+            <td class="price-cell">$399</td>
+            <td class="image-cell"><img src="../images/iphone-se.jpeg" alt="iPhone SE"></td>
+          </tr>
+          <!-- Add more rows for other iPhone models -->
+        </tbody>
+      </table>
+    </div>
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form id="feedbackForm">
+        <input type="text" class="form-input" name="fullName" placeholder="Full Name" required>
+        <input type="email" class="form-input" name="email" placeholder="Email" required>
+        <textarea class="form-textarea" name="message" placeholder="Your message" required></textarea>
+        <button type="submit" class="form-submit">Submit</button>
+      </form>
+      <div id="formMessage" class="hidden"></div>
+    </div>
+    <div class="iframe-container">
+      <iframe class="iframe-content" src="https://www.youtube.com/embed/IY4x85zqoJM" width="50%"></iframe>
+    </div>
+    <ul class="pagination">
+      <li><a href="../html/abdullah 1.html">1</a></li>
+      <li><a href="../html/abdullah 2.htm">2</a></li>
+    </ul>
+    <!-- Footer -->
+    <div class="footer">
+    </div>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/project.js"></script>
+</body>
+
+</html>

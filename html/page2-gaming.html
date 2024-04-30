@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETAILS</title>
+<link rel="stylesheet" href="../css/style2-gaming.css">
+<link rel="stylesheet" href="../JS/script1-gaming.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <script> function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    const input = document.getElementById("myInput");
+    const filter = input.value.toUpperCase();
+    const div = document.getElementById("myDropdown");
+    const a = div.getElementsByTagName("a");
+    for (let i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+    </script>
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="header-area">
+        <ul class="links">
+        <li><a href="#" >About us</a></li>
+        <li><a href="#" >Service</a</li>
+        <li><a href="#" >Contact</a></li>
+        <li><a href="#" >products</a></li>
+        </ul>
+        <div class="intro-text">
+        <h1>GAMESTOP</h1>
+        </div>
+        </div>
+       
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Requirements</button>
+          <div id="myDropdown" class="dropdown-content">
+            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            <a href="#CPU">CPU</a>
+            <a href="#RAM">RAM</a>
+            <a href="#FREE DISK SPACE	">FREE DISK SPACE	</a>
+            <a href="#VIDEO CARD">VIDEO CARD</a>
+           
+          </div>
+        </div>
+       
+    <div class="REQ"><b>Horizon Zero Dawn Recommended Requirements</b></div>
+  <table class="table">
+   <tr>
+<th class="cpu">CPU</th>
+<td>Intel Core i5-8600 or AMD Ryzen 5 3600</td>
+   </tr>
+   <tr>
+<th class="ram">RAM </th>
+<td>16 GB</td>
+   </tr>
+   <tr>
+<th class="free">FREE DISK SPACE</th>
+<td>150 GB</td>
+   </tr>
+   <tr>
+<div class="videocard"><th>VIDEO CARD</th>
+<td>NVIDIA GeForce RTX 3060</td>
+   </tr>
+  </table>
+
+ 
+    <div class="description"> 
+    <div class="title">EARTH IS OURS NO MORE</div>
+      <p class="par">Experience Aloy’s entire legendary quest to unravel the mysteries of a world ruled by deadly Machines. <br>
+        An outcast from her tribe, the young hunter fights to uncover her past, discover her destiny.......... <br>and stop a catastrophic threat to the future. 
+        Unleash devastating, tactical attacks against unique Machines <br> and rival tribes as you explore an open world teeming with wildlife and danger.</p>
+    </div>
+  <div class="container">
+    <div class="video">      
+    <video   width="800px" height="600px" controls autoplay muted >
+        <source src="../media/Horizon.mp4" type="video/mp4">
+        <source src="Horizon.ogg" type="video/ogg">
+    </video>
+    </div>
+    
+   <div class="frame"> <iframe src="../html/page1-gaming.html" frameborder="0"  width="800px"></iframe></div>
+  </div>
+  
+  <footer class="footer-content">
+    <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+    </div>
+    <div class="footer-links">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Our Team</a></li>
+        </ul>
+
+    </div>
+</footer>
+</body>
+</html>
